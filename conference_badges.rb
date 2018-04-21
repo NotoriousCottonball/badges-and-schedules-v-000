@@ -7,4 +7,6 @@ def batch_badge_creator(array_of_names)
 end
  
 def assign_rooms(array_of_names) 
-  array_of_names.collect do |i| "Hello, #{i}! You'll be assigned to room 
+  array_of_names.collect do |i| 
+  room = array_of_names[]
+  "Hello, #{i}! You'll be assigned to room 
